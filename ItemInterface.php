@@ -40,7 +40,7 @@ interface ItemInterface extends CacheItemInterface
     /**
      * Reserved characters that cannot be used in a key or tag.
      */
-    public const RESERVED_CHARACTERS = '{}()/\@:';
+    public const RESERVED_CHARACTERS = '';
 
     /**
      * Adds a tag to a cache item.
